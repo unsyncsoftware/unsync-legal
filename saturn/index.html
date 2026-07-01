@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Saturn — Privacy Policy</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;700&family=JetBrains+Mono:wght@400;700&display=swap');
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      background: #080808;
+      color: #cccccc;
+      font-family: 'Syne', sans-serif;
+      line-height: 1.8;
+      padding: 48px 24px;
+    }
+
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+    }
+
+    .logo-row {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      margin-bottom: 48px;
+    }
+
+    .logo-row svg {
+      width: 40px;
+      height: 40px;
+    }
+
+    .logo-row span {
+      font-family: 'Syne', sans-serif;
+      font-size: 22px;
+      font-weight: 700;
+      letter-spacing: 0.3em;
+      color: #00ffcc;
+    }
+
+    h1 {
+      font-size: 28px;
+      font-weight: 700;
+      color: #ffffff;
+      margin-bottom: 8px;
+      letter-spacing: 0.05em;
+    }
+
+    .updated {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 12px;
+      color: #555;
+      margin-bottom: 48px;
+    }
+
+    h2 {
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0.2em;
+      color: #00ffcc;
+      text-transform: uppercase;
+      margin-top: 40px;
+      margin-bottom: 12px;
+      border-left: 2px solid #00ffcc;
+      padding-left: 12px;
+    }
+
+    p {
+      font-size: 15px;
+      color: #aaaaaa;
+      margin-bottom: 16px;
+    }
+
+    ul {
+      list-style: none;
+      margin-bottom: 16px;
+      padding-left: 16px;
+    }
+
+    ul li {
+      font-size: 15px;
+      color: #aaaaaa;
+      margin-bottom: 8px;
+      padding-left: 16px;
+      position: relative;
+    }
+
+    ul li::before {
+      content: '—';
+      position: absolute;
+      left: 0;
+      color: #00ffcc;
+    }
+
+    .highlight {
+      background: #0d0d0d;
+      border: 1px solid #1a1a1a;
+      border-left: 2px solid #00ffcc33;
+      padding: 16px 20px;
+      margin-bottom: 16px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 13px;
+      color: #888;
+    }
+
+    .contact {
+      margin-top: 48px;
+      padding-top: 32px;
+      border-top: 1px solid #1a1a1a;
+    }
+
+    .contact a {
+      color: #00ffcc;
+      text-decoration: none;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 13px;
+    }
+
+    .contact a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      margin-top: 64px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11px;
+      color: #333;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <div class="logo-row">
+      <svg viewBox="0 0 40 40" fill="none">
+        <ellipse cx="20" cy="20" rx="10" ry="10" fill="#0a2e28" stroke="#00ffcc" stroke-width="1.5"/>
+        <ellipse cx="20" cy="20" rx="18" ry="6" fill="none" stroke="#64c8ff" stroke-width="1" transform="rotate(-18 20 20)"/>
+      </svg>
+      <span>SATURN</span>
+    </div>
+
+    <h1>Privacy Policy</h1>
+    <div class="updated">Last updated: July 1, 2026</div>
+
+    <p>Saturn is a dual-mode browser developed by UnSync Software that lets you browse the open web and the unsync mesh network. This policy explains what data Saturn collects, what it does not collect, and how it handles your information.</p>
+
+    <h2>What we do not collect</h2>
+    <p>Saturn does not collect, store, or transmit the following to UnSync Software or any third party:</p>
+    <ul>
+      <li>Your browsing history</li>
+      <li>URLs you visit on the open web or on the mesh network</li>
+      <li>Search queries you enter in the address bar</li>
+      <li>Any personal identification information</li>
+      <li>Device identifiers, location data, or analytics</li>
+    </ul>
+
+    <h2>Guest mode</h2>
+    <p>Saturn works without any account or registration. In guest mode you can browse standard HTTPS websites and view public mesh:// sites freely. No data is sent to UnSync Software servers during guest browsing.</p>
+
+    <h2>Mesh identity</h2>
+    <p>If you choose to create a mesh identity, the following information is stored:</p>
+    <ul>
+      <li>Your chosen handle (e.g. @yourname)</li>
+      <li>A public key associated with your handle</li>
+      <li>A peer ID used for routing on the mesh network</li>
+    </ul>
+    <div class="highlight">
+      Your handle and public key are stored on the unsync mesh registry to enable peer-to-peer routing. Your private key is stored only on your device and is never transmitted to UnSync Software.
+    </div>
+    <p>Mesh identities are tied to a single device. One active session is allowed per handle at a time. If you register the same handle on a new device, the previous registration is invalidated. Lost access to your device means your handle cannot be recovered — choose a new one on a new device.</p>
+
+    <h2>Third-party websites</h2>
+    <p>Saturn is a browser. Websites you visit — both on the open web and on the mesh network — may collect data under their own privacy policies. UnSync Software has no control over and accepts no responsibility for third-party content or data practices.</p>
+
+    <h2>Data security</h2>
+    <p>Your mesh private key is stored in your device's secure storage and never leaves your device. No personal data is transmitted to UnSync Software servers under normal app operation.</p>
+
+    <h2>Children</h2>
+    <p>Saturn is not directed at children under the age of 13. We do not knowingly collect any information from children.</p>
+
+    <h2>Changes to this policy</h2>
+    <p>UnSync Software may update this privacy policy from time to time. Updates will be reflected on this page with a revised date. Continued use of Saturn after any update constitutes acceptance of the revised policy.</p>
+
+    <div class="contact">
+      <h2>Contact</h2>
+      <p>Questions about this privacy policy can be sent to:<br/>
+      <a href="mailto:privacy@unsync.uk">privacy@unsync.uk</a></p>
+    </div>
+
+    <footer>
+      &copy; 2026 UnSync Software. All rights reserved.
+    </footer>
+
+  </div>
+</body>
+</html>
